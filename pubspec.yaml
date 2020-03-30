@@ -1,0 +1,35 @@
+name: chef
+description: A mobile app to smartly use your ingredients
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  google_sign_in: any
+  firebase_auth: any
+  cloud_firestore: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/recipe.json
+    - assets/images/
+  fonts:
+    - family: Product Sans
+      fonts:
+        - asset: assets/fonts/psans.ttf
+    - family: Montez
+      fonts:
+        - asset: assets/fonts/Montez-Regular.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
